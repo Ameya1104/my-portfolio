@@ -125,6 +125,12 @@ h3 { font-size: 28px; }
 	-o-transform: rotate(12deg);
 }
 
+@media screen and (min-width: 320px) {
+	.overlay{
+		height: 635px;
+	}
+}
+
 @media (max-width: 767px) { 
 	.jumbotron:before {
 		bottom: 100px;
