@@ -126,9 +126,11 @@ h3 { font-size: 28px; }
 }
 
 @media screen and (min-width: 320px) {
-	.overlay{
-		height: 635px;
+	.jumbotron .overlay { 
+		height: 635px ;
 	}
+
+	.jumbotron .scroll-down { top: 555px; right: 0px; }
 }
 
 @media (max-width: 767px) { 
